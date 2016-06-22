@@ -138,9 +138,9 @@ var quizJSON = {
              { // Question 12
             "q": "«Tras la caída del muro de Berlín ya no existe la lógica de la derecha y de la izquierda»",
             "a": [
-                {"option": "Falange",    "correct": false},
+                {"option": "Falange",    "correct": true},
                 {"option": "Le Pen",     "correct": false},
-                {"option": "Podemos",   "correct": true} // no comma here
+                {"option": "Podemos",   "correct": false} // no comma here
             ],
             "correct": "<p><span>YASSSSSS, la frase es de Pablo Iglesias.</span></p><p>Te veo muy docto en política europea, compañero.</p>",
             "incorrect": "<p><span>Fallaste, lo sentimos: la frase es de Pablo Iglesias.</span></p><p>Try again, Fräulein.</p>" // no comma here
@@ -148,9 +148,9 @@ var quizJSON = {
             { // Question 13
           "q": "«El problema de Europa no es Grecia, sino el sistema liberal capitalista al servicio del poder financiero que está aniquilando a sus naciones»",
           "a": [
-              {"option": "Falange",    "correct": false},
+              {"option": "Falange",    "correct": true},
               {"option": "Le Pen",     "correct": false},
-              {"option": "Podemos",   "correct": true} // no comma here
+              {"option": "Podemos",   "correct": false} // no comma here
             ],
        "correct": "<p><span>NAI.</span></p><p>Que viene a ser que sí, que acertaste, en griego. ¿O era al revés? El resultado de ese referendum aún nos tiene confundidos.</p>",
        "incorrect": "<p><span>OXI. (La correcta es 'Podemos').</span></p><p>Que viene a ser que no, que no acertaste. En Griego.</p>" // no comma here
