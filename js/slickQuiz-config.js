@@ -128,12 +128,12 @@ var quizJSON = {
              { // Question 11
             "q": "«No es tolerable que masas enormes vivan miserablemente mientras unos cuantos disfrutan de todos los lujos»",
             "a": [
-                {"option": "Falange",    "correct": false},
-                {"option": "Podemos",      "correct": true},
+                {"option": "Falange",    "correct": true},
+                {"option": "Podemos",      "correct": false},
                 {"option": "Le Pen",   "correct": false} // no comma here
             ],
             "correct": "<p><span>¡Correcto!</span></p><p>¡Menudo Florido Pensil estás hecho!</p>",
-            "incorrect": "<p><span>Lástima, la respuesta correcta es 'Podemos'.</span></p><p>Entendemos tu confusión, camarada: quizás la nueva politica no sea tan nueva como parece.</p>" // no comma here
+            "incorrect": "<p><span>Lástima, la respuesta correcta es 'Falange'.</span></p><p>Entendemos tu confusión, camarada: quizás la nueva politica no sea tan nueva como parece.</p>" // no comma here
         },
              { // Question 12
             "q": "«Tras la caída del muro de Berlín ya no existe la lógica de la derecha y de la izquierda»",
@@ -148,12 +148,12 @@ var quizJSON = {
             { // Question 13
           "q": "«El problema de Europa no es Grecia, sino el sistema liberal capitalista al servicio del poder financiero que está aniquilando a sus naciones»",
           "a": [
-              {"option": "Falange",    "correct": false},
+              {"option": "Falange",    "correct": true},
               {"option": "Le Pen",     "correct": false},
-              {"option": "Podemos",   "correct": true} // no comma here
+              {"option": "Podemos",   "correct": false} // no comma here
             ],
        "correct": "<p><span>NAI.</span></p><p>Que viene a ser que sí, que acertaste, en griego. ¿O era al revés? El resultado de ese referendum aún nos tiene confundidos.</p>",
-       "incorrect": "<p><span>OXI. (La correcta es 'Podemos').</span></p><p>Que viene a ser que no, que no acertaste. En Griego.</p>" // no comma here
+       "incorrect": "<p><span>OXI. (La correcta es 'Falange').</span></p><p>Que viene a ser que no, que no acertaste. En Griego.</p>" // no comma here
       },
       { // Question 14
     "q": "«La globalización es que fabriquen los esclavos para vender a los desempleados»",
