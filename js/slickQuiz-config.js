@@ -16,7 +16,7 @@ var quizJSON = {
         "level7":  "Sáenz de Ynestrillas</br></br>¡Buen trabajo! ¡Eres la prueba viviente de que se puede ser de Podemos sin dejar de ser facha!",
         "level8":  "Jean Marie Le Pen</br></br>Tu hija lo haría mejor que tú.",
         "level9":  "Manolo el del Bombo</br></br>Nunca fallas a las grandes citas. Lástima que este quiz no sea una de ellas.",
-        "level10":  "José Antonio Samaranch</br></br>Si el fascismo fuese deporte olímpico hubieras conseguido un diploma. Todavía lejos de las medallas.",
+        "level10":  "Juan Antonio Samaranch</br></br>Si el fascismo fuese deporte olímpico hubieras conseguido un diploma. Todavía lejos de las medallas.",
         "level11":  "Salva Ballesta</br></br>Fallas más que aciertas, deberías pensar más con la cabeza que con los pies (en el supuesto de que piense).",
         "level12":  "Lluís Rabell</br></br>Haríamos un chiste muy gracioso con tu fracaso... si recordáramos quién eres.",
         "level13":  "Blas Piñar</br></br>Lo has inentado con todas tus fuerzas, pero te adornan más fracasos que aciertos.",
