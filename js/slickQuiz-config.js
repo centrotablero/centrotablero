@@ -5,7 +5,7 @@
 var quizJSON = {
     "info": {
         "name":    "",
-        "main":    "<img src='http://95.85.56.122/quiz/qdqlogo.png'>",
+        "main":    "<img src='http://centrodeltablero.ga/qdqlogo.png'>",
         "results": "<h5></p>",
         "level1":  "Pablo Iglesias</br></br>Eres tan bueno que puedes vender Unidad y Patria en España, fraternidad y federalismo en Cataluña, y que te voten en ambos lugares. ¡Torero!",
         "level2":  "La Abuela Franquista</br></br>Enhorabuena: estás dentro de las posiciones de honor. ¡Venciste y vencerás!",
