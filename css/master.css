@@ -1,0 +1,410 @@
+/* QUIZ STYLES */
+/* Styles to prettify the quiz page */
+
+html {
+    background: #dbffc9;
+}
+
+body {
+    margin: 0 auto;
+    border-top: none;
+    font-family: 'Open sans', Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    color: #353535;
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+div#slickQuiz {
+     border: 11px solid #000;
+    padding: 10px;
+    padding-bottom: 35px;
+    border-radius: 29px;
+    margin-top: 30px;
+background: rgba(248,31,223,1);
+background: -moz-linear-gradient(top, rgba(248,31,223,1) 0%, rgba(236,198,62,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,31,223,1)), color-stop(100%, rgba(236,198,62,1)));
+background: -webkit-linear-gradient(top, rgba(248,31,223,1) 0%, rgba(236,198,62,1) 100%);
+background: -o-linear-gradient(top, rgba(248,31,223,1) 0%, rgba(236,198,62,1) 100%);
+background: -ms-linear-gradient(top, rgba(248,31,223,1) 0%, rgba(236,198,62,1) 100%);
+background: linear-gradient(to bottom, rgba(248,31,223,1) 0%, rgba(236,198,62,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81fdf', endColorstr='#ecc63e', GradientType=0 );}
+
+h1,h2,h3,h4,h5,h6 {font-weight: bold;}
+
+h1 {
+    font-size: 26px;
+    margin: 0 0 20px;
+    color: #0C4569;
+}
+h2 {
+    font-size: 22px;
+    margin: 15px 0;
+}
+h3 {
+ font-size: 15px;
+    margin: 18px 0;
+    line-height: 20px;
+}
+h4 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+h5 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+h6 {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+ul { list-style-type: circle; }
+ol { list-style-type: decimal; }
+ol li { list-style-type: decimal; margin-left: 20px; }
+
+.button {
+    width: auto;
+    padding: 13px 22px;
+    color: #000000;
+    background-color: white;
+    border: 1px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.button:hover {
+    background-color: #ccc;
+    color: #000;}
+
+.checkanswer {
+    display: inline-block !important;
+}
+
+
+.startQuiz {
+    margin-top: 40px;
+}
+
+.tryAgain {
+    float: none;
+    margin: 20px 0;
+}
+
+/* clearfix 
+.quizArea, .quizResults {
+    zoom: 1;
+}*/
+
+
+.quizArea:before, .quizArea:after, .quizResults:before, .quizResults:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}
+.quizArea:after, .quizResults:after {
+    clear: both;
+}
+
+.questionCount {
+    font-size: 14px;
+    font-style: italic;
+}
+.questionCount span {
+    font-weight: bold;
+}
+
+ol.questions {
+    margin-top: 20px;
+    margin-left: 0;
+}
+ol.questions li {
+    margin-left: 0;
+}
+
+ul.answers {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul.responses li {
+}
+
+
+ul.responses li p span {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  
+    padding: 10px;
+}
+
+
+
+.complete ul.answers li.correct, ul.responses li.correct p span {
+
+  border: 1px solid #fff;
+  background: #fff;
+    color: #6C9F2E !important;
+
+
+}
+ul.responses li.incorrect p span {
+  border: 1px solid #b5121b;
+    color: #b5121b !important;}
+
+.quizResults h3 {
+    margin: 0;
+    text-align: center;
+
+
+
+}
+
+
+h3.quizScore {
+    margin-top: 30px;
+}
+
+.quizResults h3 span {
+    font-weight: normal;
+}
+.quizResultsCopy {
+    clear: both;
+    margin-top: 20px;
+    text-align: center;}
+
+
+
+.checkAnswer {
+    background: #0086ff;
+    border: 0px;
+    color: #fff;
+    font-weight: normal;
+    border: 1px solid #0060b6;
+}
+
+.checkAnswer:hover {
+    background: #0060b6;
+}
+
+
+
+.answers label {
+border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 9px;
+    margin-bottom: 33px;
+    display: inline-block;
+    margin-right: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.answers li:nth-of-type(3) label {
+    margin-right: 0px;
+}
+
+.answers input {display: none}
+
+
+input[type="radio"]:checked + label {
+background: #ffffff;
+    color: #d18673;
+}
+
+
+
+
+ol.questions li {
+    margin-left: 0;
+    display: inline-block;
+}
+
+
+ul.answers {
+    text-align: center;
+    margin-top: 23px;
+    margin-left: 0px;
+}
+
+div#slickQuiz {
+
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+
+
+
+
+.responses p {
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+
+
+.responses p:nth-of-type(2) {
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+ol.questions {
+  text-align: center;
+    margin-top: -25px;
+    margin-left: 0;
+}
+
+
+    .container {
+        width: 90%;
+        margin:0 auto;
+    }
+
+.quizDescription img {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 4px;
+    margin-bottom: 30px;
+}
+
+.quizDescription {
+    text-align: center;
+}
+
+
+#question9 label {
+    margin-bottom: 9px !important;
+    margin-right: 8px;
+    width: 114px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 979px) {
+    .container {
+        margin:0 auto;
+        width: 800px;
+    }
+
+
+ol.questions {
+    margin-top: 20px;
+    width: 59%;
+    float: right;
+}
+
+
+
+#question9 li {
+    display: block;
+}
+
+#question9 label {
+    width: 180px;
+    margin: 0 auto;
+    margin-bottom: 9px;
+}
+
+h3{
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+
+.questionCount {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+.responses p {
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+
+
+
+.nextQuestion{margin-left: 37%}
+
+.button.checkAnswer {
+    margin-left: 27%;
+}
+
+
+.quizDescription {
+    float: left;
+
+}
+
+.quizHeader{    display: block;
+    float: left;
+    width: 40%;}
+
+.quizDescription img {
+    width: 92%;
+  
+}
+
+
+ul.responses li p span {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+li.incorrect {
+    text-align: center;
+}
+
+li.correct {
+    text-align: center;
+}
+
+
+
+
+
+
+}
+
