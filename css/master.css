@@ -266,7 +266,11 @@ div#slickQuiz {
 }
 
 
+.presentar{margin-top: 40px;
+    text-align: center;}
 
+
+    .presentar p {margin-bottom: 20px}
 
 
 
@@ -305,9 +309,14 @@ ol.questions {
 
 
 
+.presentar {margin-top:40px;}
 
-
-
+.botoninicio{text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 38px;}
 
 
 
@@ -318,10 +327,26 @@ ol.questions {
 
 
 @media screen and (min-width: 979px) {
+
+.botoninicio{
+
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    margin-top: 100px;
+ margin-left: 370px !important;
+
+
+}
+
+
     .container {
         margin:0 auto;
         width: 800px;
     }
+
+
 
 
 ol.questions {
@@ -330,7 +355,7 @@ ol.questions {
     float: right;
 }
 
-
+.presentar{float: left; width: 58%;}
 
 #question9 li {
     display: block;
