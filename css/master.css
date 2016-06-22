@@ -284,6 +284,10 @@ ol.questions {
     margin-left: 0;
 }
 
+div#slickQuiz {
+
+    margin-top: 10px !important;}
+
 
     .container {
         width: 90%;
