@@ -705,9 +705,9 @@
                     level = 4;
                 } else if (plugin.method.inRange(0.74, 0.80, percent)) {
                     level = 3;
-                } else if (plugin.method.inRange(0.81, 0.85, percent)) {
+                } else if (plugin.method.inRange(0.81, 0.88, percent)) {
                     level = 2;
-                } else if (plugin.method.inRange(0.86, 0.94, percent)) {
+                } else if (plugin.method.inRange(0.89, 0.94, percent)) {
                     level = 1;
                 } else if (plugin.method.inRange(0.95, 1.00, percent)) {
                     level = 0;
